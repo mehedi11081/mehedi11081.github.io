@@ -88,87 +88,17 @@ main{
 footer{
     margin-top: 5px;
     text-align: center;
-    /* border: 1px solid red; */
     padding: 5px;
     font-weight: bolder;
     color: white;
     background-color: rgb(255, 165, 0);
    
 }
-#row2{
-    margin-top: 50px;
-}
-#row2 h1{
-    text-align: center;
-}
-.row2-box{
-    box-shadow: 0px 0px 5px rgb(231, 228, 228);
-    /* padding: 5px; */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
-}
-.row2-part{
-    flex:40%;
-    padding: 0 15px 20px 15px;
-}
-.row2-part .outer-pro{
-  position: relative;
-  background-color: rgb(240, 231, 218);
-  height: 10px;
- 
-}
-.row2-part .inner-pro{
-    
-    position: absolute;
-    background-color: rgb(255, 165, 0);
-    height: 10px;
-    width: 40%;
-}
 
-#row3{
-    margin-top: 50px;
-}
-#row3 h1{
-    text-align: center;
-}
-.row3-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.row3-box .row3-part{
-    
-    border-top: 5px solid rgb(255, 165, 0);
-    width: 45%;
-    padding: 0 15px 20px 15px;
-    box-shadow: 0px 0px 5px rgb(231, 228, 228);
-    margin-bottom: 40px;
-}
-#row4{
-    margin-top: 50px;
-}
-#row4 h1{
-    text-align: center;
-}
-.row4-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.row4-box .row4-part{
-    
-    border-top: 5px solid rgb(255, 165, 0);
-    width: 45%;
-    padding: 0 15px 20px 15px;
-    box-shadow: 0px 0px 5px rgb(231, 228, 228);
-    margin-bottom: 40px;
-}
 #row5{
     margin-top: 50px;
 }
-#row5 h1,h4{
+#row5 h4{
     text-align: center;
 }
 .row5-box{
@@ -246,18 +176,6 @@ footer{
         display: block;
         color: white;
         border-bottom: 1px solid white;
-    }
-    .row3-box{
-        flex-direction: column;
-    }
-    .row3-box .row3-part{
-        width: 90%;
-    }
-    .row4-box{
-        flex-direction: column;
-    }
-    .row4-box .row4-part{
-        width: 90%;
     }
     .row5-box{
         flex-direction: column;
